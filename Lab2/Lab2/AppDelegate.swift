@@ -1,10 +1,26 @@
-//
-//  AppDelegate.swift
-//  Lab2
-//
-//  Created by mazaval4 on 1/25/17.
-//  Copyright © 2017 mazaval4. All rights reserved.
-//
+/*
+ * Copyright 2017 Miguel Zavala,
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Purpose: To display the iphone lifecycle
+ *
+ * Ser423 Mobile Applications
+ * see http://pooh.poly.asu.edu/Mobile
+ * @author Miguel Zavala miguel.zavala@asu.edu
+ *         Software Engineering, CIDSE, BSSE, ASU Poly
+ * @version January 2017
+ */
 
 import UIKit
 
@@ -13,11 +29,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    // To start this method I ran the app in the emulator
     func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         print("In the will finish launching with options");
         return true
     }
+    
+    // To start this method I ran the app in the emulator
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         print("In the did finish launching with options");
         return true
@@ -40,6 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("In the application will enter foreground");
     }
 
+    // To start this method I ran the app in the emulator
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
         print("In the application did become active");
